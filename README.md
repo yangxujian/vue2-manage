@@ -1,5 +1,5 @@
-技术栈
-vue2 + vuex + vue-router + webpack + ES6/7 + fetch + sass + flex + svg
+# 技术棧
+vue2 + vuex + vue-router + element-ui + webpack + ES6/7 + axios + sass + file-saver
 
 
 # install dependencies
