@@ -1,26 +1,19 @@
 import Vue from 'vue'
 import App from './App'
-import router from './router'
+import VueRouter from 'vue-router'
+import routes from './router/'
+import axios from 'axios'
 import store from './store/'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css';
-// import FileSaver from 'file-saver'
-// import XLSX from 'xlsx'
-//
-// Vue.prototype.$FileSaver = FileSaver;
-// Vue.prototype.$XLSX = XLSX;
+
+Vue.use(VueRouter)
 Vue.use(ElementUI);
 
-router.beforeEach((to, from, next) => {
-  if (to.path == '/login') {
-    console.log('login')
-  }
-  let user = true;
-  if (!user && to.path != '/login') {
-    next({ path: '/login' })
-  } else {
-    next()
-  }
+const router = new VueRouter({
+    mode: 'hash',
+    base:__dirname,
+    routes,
 })
 
 new Vue({
