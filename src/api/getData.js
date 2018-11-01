@@ -1,18 +1,15 @@
 import axios from 'axios'
-import {getCookie} from 'src/config/mUtils'
-
 
 
 /**
- *  微信用户登录
+ *  接口请求示例
  */
-export const wxlogin = (code,superior) => {
+export const wxlogin = (code) => {
 	return axios({
 		 method:'post',
-		 url:'/uthink-app-manage/api/member/getMmgRegisterOrUpdateByWXcode',
+		 url:'',
 		 params:{
-			 code,
-			 superior,
+			code,
 		 }
 	 })
 }
