@@ -1,4 +1,6 @@
-技术棧:vue2全家桶+element-ui+file-saver+axios+postcss-loader+es6/7
+技术栈
+vue2 + vuex + vue-router + webpack + ES6/7 + fetch + sass + flex + svg
+
 
 # install dependencies
 npm install
