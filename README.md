@@ -1,5 +1,5 @@
 # 技术棧
-vue2 + vuex + vue-router + element-ui + webpack + ES6/7 + axios + sass + file-saver
+vue2 + vuex + vue-router + element-ui + webpack + ES6/7 + axios + sass + file-saver + xlsx
 
 
 # install dependencies
