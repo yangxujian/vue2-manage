@@ -1,6 +1,5 @@
 import axios from 'axios'
 
-
 /**
  *  接口请求示例
  */
