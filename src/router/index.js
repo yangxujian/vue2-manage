@@ -1,7 +1,3 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-
-Vue.use(Router)
 
 const login = r => require.ensure([], () => r(require('src/page/login')), 'login');
 const manage = r => require.ensure([], () => r(require('src/page/manage')), 'manage');
@@ -28,7 +24,7 @@ const advertList = r => require.ensure([], () => r(require('src/page/advertList'
 const commonOrder = r => require.ensure([], () => r(require('src/page/commonOrder')), 'commonOrder');
 const error = r => require.ensure([], () => r(require('src/page/error')), 'error');
 
-const routes = [
+export default [
   {
 		path: '/',
 		component: login
@@ -167,8 +163,3 @@ const routes = [
 		component: error
 	},
 ]
-
-export default new Router({
-	routes,
-	strict: process.env.NODE_ENV !== 'production',
-})
