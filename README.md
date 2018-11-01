@@ -1,3 +1,4 @@
+技术棧:vue2全家桶+element-ui+file-saver+axios+postcss-loader+es6/7
 
 # install dependencies
 npm install
