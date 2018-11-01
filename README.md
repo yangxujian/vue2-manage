@@ -1,5 +1,4 @@
-# vue-manage
-vue2搭建的后台demo
+
 # install dependencies
 npm install
 
@@ -9,4 +8,7 @@ npm run dev
 # build for production with minification
 npm run build
 
+在线访问：https://yangxujian.github.io/vue-manage/dist
 账号密码随便输入即可进入
+
+如果解决了你的问题，请右上角star，谢谢
