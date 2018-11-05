@@ -10,7 +10,7 @@ npm run dev
 # build for production with minification
 npm run build
 
-在线访问：https://yangxujian.github.io/vue-manage/dist
+在线访问：https://yangxujian.github.io/vue2-manage/dist
 账号密码随便输入即可进入
 
 demo展示数据均为写死数据！
